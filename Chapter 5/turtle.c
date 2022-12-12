@@ -1,15 +1,15 @@
 #include <stdio.h>
+
 typedef struct{
     const char *name;
     const char *species;
-
     int age;
 } turtle;
 
 void happy_bd(turtle *t) {
     (*t).age = (*t).age + 1;
-    printf("S dnem Rojdenia, %s! Teper tebe %i let!\n",
-    (*t).name, (*t).age);
+    printf( "S dnem Rojdenia, %s! Teper tebe %i let!\n",
+        (*t).name, (*t).age );
 }
 
 int main() {
@@ -19,3 +19,4 @@ int main() {
 
     return 0;
 }
+

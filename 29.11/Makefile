@@ -6,3 +6,4 @@ encrypt.o: encrypt.c encrypt.h
 
 main.o: main.c encrypt.h
 	gcc -c main.c
+

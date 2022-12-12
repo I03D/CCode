@@ -14,3 +14,4 @@ int main(){
     printf("Stop: [%d, %d]", latitude, longitude);
     return 0;
 }
+

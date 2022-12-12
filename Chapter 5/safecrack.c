@@ -18,8 +18,8 @@ typedef struct{
 int main() {
     swag gold = {"Zoloto!", 1000000.0};
     combination numbers = {&gold, "6502"};
-
     safe s = {numbers, "RAMACON250"};
+
     printf("Soderjimoe = %s\n", s.numbers.swag->description);
 
     return 0;

@@ -4,3 +4,4 @@
 void encrypt (char*);
 
 #endif
+
